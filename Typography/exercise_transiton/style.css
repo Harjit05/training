@@ -1,24 +1,33 @@
 .container{
-    /* perspective: 100px; */
-
+padding:1rem;
 }
 .box{
     width: 500px;
-    height: 250px;
+    height: 110px;
     border-radius: 30px;
+    transform: rotate(-5deg);
+    background: #fbfbfb;
+    padding: 1rem;
+}
+.box:hover{
+    transform: none;
+    box-shadow: 10px 10px rgb(223, 229, 236);
+
 
 }
 .footer{
     border-radius: 30px;
     width: 500px;
-    height: 100px;
-    background: rgb(116,214,144); 
+    height: 60px;
+    padding: 20px;
+    background: rgb(116,214,144);
+    overflow: hidden; 
     background: linear-gradient(180deg, rgba(116,214,144,1) 24%, rgba(92,191,187,1) 100%);
-}
+}  
 .footer img{
     width: 60px;
     height: 60px;
-    border-radius: 50%;
+    border-radius: 50%;   
 }
 .footer span{
     color:white;
