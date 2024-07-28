@@ -4,8 +4,8 @@ body{
     /* justify-content: center;  */
 }
 .container{
-    background: orange;
-    padding: 4rem;
+    /* background: orange; */
+    padding: 5rem;
     width: 30rem;
     text-align: center;
     margin: auto;
@@ -16,7 +16,7 @@ i{
     text-align: center;
 }
 .p1{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 500;
     color: rgb(56, 55, 55);
 }
@@ -34,31 +34,108 @@ i{
 .btn-primary{
     background: rgb(69, 183, 155);
     color: white;
-    padding: 0.5rem;
+    padding: 1rem;
     width: 150px;
     font-weight: 500;
 }
 .btn-secondary{
     background: rgb(97, 91, 213);
     color: white;
-    padding: 0.5rem;
+    padding: 1rem;
     width: 150px;
     font-weight: 500;
 }
+.main{
+    height: 650px;
+    width: 80%;
+    /* background: dodgerblue; */
+
+}
 .left_img{
-    width: 350px;
-    height: 200px;
-    background:red ;
+    width: 800px;
+    height: 600px;
+    /* background:red ; */
     float:left;
+    font-size: 20px;
     clear: both;
 }
+.left_img img{
+    width: 800px;
+    height: 650px;
+    
+}
 .right_side{
-    width:340px;
-    padding: 1.5rem;
-    height: 200px;
-    background:rgb(198, 115, 115) ;
+    width:300px;
+    height: 350px;
+    margin-top:80px;
+    /* background:rgb(198, 115, 115) ; */
     float:right;
+    color:rgb(46, 44, 44);
+
 }
 .right-side-content{
-    color:rgb(46, 44, 44);
+    font-size: 16px;
+}
+.access__clipboard{
+    clear: both;
+    font-size: 14px;
+    width: 35%;
+    text-align: center;
+    /* background: dodgerblue; */
+    margin: auto;
+}
+.access-clipboard-img {
+    /* background: pink; */
+    width: 60%;
+    margin: auto;
+}
+.blacklist-plain-sneak{
+    height: 350px;
+    /* background: greenyellow; */
+    margin-top: 50px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.p3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.blacklist__container{
+    /* background: rgb(218, 114, 114); */
+    width: 21%;
+    height: 300px;
+    float:left;
+    margin-left:145px;
+}
+.blacklist__container .icon{
+    text-align: center;
+}
+.more__icons{
+    /* background: dodgerblue; */
+    height: 100px;
+    width: 100%;
+    clear: both;
+}
+.more__icons img{
+    margin-left: 125px;
+}
+.footer{
+    padding: 5rem;
+    width: 35rem;
+    text-align: center;
+    margin: auto;
+}
+.last__part{
+    /* background: orange; */
+    height: 150px;
+}
+.logo__last{
+    width: 10%;
+    height: 150px;
+    /* background: red; */
+}
+.last-part-content{
+    /* width: 40%; */
+    height: 150px;
+    /* background: yellow; */
 }
