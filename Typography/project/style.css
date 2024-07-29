@@ -133,14 +133,14 @@ i{
     margin: auto;
 }
 .last__part{
-    /* background: orange; */
-    height: 150px;
+    background:lightgray;
+    height: 165px;
     width: 100%;
 
 }
 .logo__last{
     width: 10%;
-    height: 150px;
+    height: 140px;
     /* background: red; */
     float: left;
     margin-left: 40px;
@@ -148,7 +148,7 @@ i{
 }
 .last-part-content{
     width: 60%;
-    height: 150px;
+    height: 140px;
     /* background: yellow; */
     float: left;
     margin-left: 60px;
@@ -171,7 +171,7 @@ i{
 }
 .last__icons{
     width: 15%;
-    height: 150px;
+    height: 140px;
     /* background-color:pink; */
     float: right;  
 }
